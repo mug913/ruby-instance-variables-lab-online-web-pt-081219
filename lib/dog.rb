@@ -1,5 +1,5 @@
 class Dog 
-  def nameis(dog_name) 
+  def name =(dog_name) 
     @this_dogs_name = dog_name 
   end 
   
@@ -10,6 +10,6 @@ class Dog
 end 
 
 lassie = Dog.new 
-lassie.nameis( "Lassie") 
+lassie.name = "Lassie" 
 
 lassie.name
